@@ -1,4 +1,3 @@
-#include <csignal>
 #include <iomanip>
 #include <iostream>
 #include <sstream>
