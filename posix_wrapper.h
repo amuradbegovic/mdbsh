@@ -12,7 +12,9 @@
 #include <vector>
 
 namespace posix_wrapper {
-int execvp(const std::string &file, const std::vector<std::string> &argv);
-std::string getcwd();
-std::string getenv(const std::string &name);
+    int execvp(const std::string &file, const std::vector<std::string> &argv);
+    std::string getcwd();
+    std::string getenv(const std::string &name);
+    std::string gethostname();
+    //int chdir(const std::string &path);
 } // namespace posix_wrapper
